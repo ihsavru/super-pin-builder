@@ -1,0 +1,12 @@
+{
+  "name": "Super Pin Builder",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "A Chrome extension that suggests optimized titles, descriptions, and tags for Pinterest pins using ChatGPT API.",
+  "permissions": ["activeTab"],
+  "content_scripts": [ {
+    "css": [ "style.css" ],
+    "js": ["content.js"],
+    "matches": ["https://in.pinterest.com/pin-builder/*"]
+  }]
+}
