@@ -1,0 +1,71 @@
+.complete-btn, .cancel-btn {
+  border: none;
+  border-radius: 24px;
+  height: 40px;
+  padding: 0px 14px;
+  font-size: 16px;
+  font-weight: 600;
+  width: fit-content;
+}
+
+.cancel-btn, .complete-btn--inactive {
+  color: black;
+  background-color: #efefef;
+}
+
+.complete-btn--inactive {
+  color: rgb(127, 127, 127);
+  cursor: not-allowed;
+}
+
+.complete-btn--active {
+  color: white;
+  background-color: rgb(230, 0, 35);
+  cursor: pointer;
+}
+
+.suggestions-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  border-radius: 8px;
+  transform: translate(-50%, -50%);
+  width: 700px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  z-index: 9999;
+}
+
+.popup-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.popup-grid > div {
+  border: 1px solid #efefef;
+  border-radius: 8px;
+  padding: 10px 15px;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.popup-grid > div:hover {
+  background: #efefef;
+  cursor: pointer;
+  color: black;
+}
+
+.option--selected, .option--selected:hover {
+  color: white !important;
+  background-color: rgb(230, 0, 35) !important;
+}
+
+.popup-action-btns-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
