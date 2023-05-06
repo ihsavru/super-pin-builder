@@ -24,4 +24,10 @@ To install the extension, follow these steps:
 5. The extension will generate five Pin titles and descriptions related to the title you entered.
 6. Select one of the suggestions or use them as inspiration to create your own.
 
+
+
+https://user-images.githubusercontent.com/22816171/236620695-f51e46bb-7f9b-4715-a6a7-f495cb6662c1.mp4
+
+
+
 That's it! Enjoy using the Pinterest AI Pin Suggester Chrome Extension.
